@@ -13,9 +13,9 @@ class OrderConfirmDialogFragment : DialogFragment() {
             val builder = AlertDialog.Builder(it)
             builder.setTitle(R.string.dialog_title)
 
-            builder.setPositiveButton(R.string.dialog_btn_ok, DialogButtonClickListener)
-            builder.setPositiveButton(R.string.dialog_btn_ng, DialogButtonClickListener)
-            builder.setPositiveButton(R.string.dialog_btn_nu, DialogButtonClickListener)
+            builder.setPositiveButton(R.string.dialog_btn_ok, DialogButtonClickListener())
+            builder.setPositiveButton(R.string.dialog_btn_ng, DialogButtonClickListener())
+            builder.setPositiveButton(R.string.dialog_btn_nu, DialogButtonClickListener())
             builder.create()
 
         }
